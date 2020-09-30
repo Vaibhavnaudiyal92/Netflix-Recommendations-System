@@ -1,11 +1,7 @@
 import pickle
 import pandas as pd
 
-
-#model_f = open('C:\\Users\\LENOVO\\RecSys\\src\\RecSys.pickle', 'rb')
-#model = pickle.load(model_f)
-#model_f.close()
-dataset = pd.read_csv('C:\\Users\\LENOVO\\RecSys\\src\\movie_dataset.csv')
+dataset = pd.read_csv(path of movie dataset)
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 tfv = TfidfVectorizer(min_df=3,  max_features=None,
